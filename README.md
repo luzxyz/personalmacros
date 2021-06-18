@@ -1,5 +1,7 @@
 # Personal macros
-
+```python
+README_ver = 18062021
+```
 
 Everything is licensed under the WTFPL Licence.
 
