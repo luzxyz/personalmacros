@@ -84,7 +84,7 @@ class rename:
 
 
 parser = apar.ArgumentParser(description='Rename files', usage='%(prog)s [-n/--name] <new_name>', 
-                             epilog='MIT license, for you corp boys')
+                             epilog='WTFPL license, for you <3')
 
 parser.add_argument('-n', '--name', metavar='<new_name>', type=str, nargs=1,
                     help='new filename for files', required=True)
