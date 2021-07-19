@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#!/usr/bin/python
 
 import os as OS
 import shutil as SH
@@ -6,7 +6,9 @@ import argparse as apar
 
 
 class rename:
-    
+
+    __name__ = 'rename' 
+
     def __init__ (self, name: str):
         self.name  = name
         self.files = self.obtain_files()
